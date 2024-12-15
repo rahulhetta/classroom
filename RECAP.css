@@ -1,0 +1,31 @@
+p{
+    color: yellow;
+}
+h1{
+    background-color: burlywood;
+}
+body{
+    background-color:#ff00ff;
+}
+button{
+    color: red;
+    background-color: rgb(255,50,20);
+}
+*{
+    color: #ff00ff;
+}
+#raone{
+    color: aqua;
+}
+p{
+    color: black;
+    text-align: center;
+    text-decoration: line-through;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    height: 50px;
+    background-color: black;
+    border:2px solid pink;
+}

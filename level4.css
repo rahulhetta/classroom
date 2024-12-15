@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    }
+#container{
+    width: 800px;
+    height: 500px;
+    border:2px solid black;
+    /* display:flex;to activate the display flex */
+    /* flex-direction: row-reverse; reverse the direction iof row  */
+    /* flex-direction: column; ARRANGE THE BOXES IN THE FORM OF COLUMNS */
+   /* flex-direction: column-reverse; REVERSE THE DIRECTIONS OF COLUMN  */
+   
+   
+   /* flex-wrap: wrap; */
+   /* align-content: center; to bring items in center  */
+}
+#box1{
+    color: black;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box2{
+    color: black;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box3{
+    color: black;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box4{
+    color: black;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}

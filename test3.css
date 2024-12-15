@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-image: url("cat_png.png");
+    background-color: aqua;
+    position: absolute;
+    right: 0px;
+   
+}

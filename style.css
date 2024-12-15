@@ -1,0 +1,92 @@
+h1{
+    color: blue;
+}
+
+/* TO CHANGE COLOR OF A PARAGGRAPH */
+p{
+    color:yellowgreen;
+}
+
+/* TO CHANGE COLOR AND BAGROUND COLOR OF BUTTON */
+BUTTON{
+    color:brown;
+    background-color: black;
+}
+
+
+   
+/* RGB */
+body{
+    background-color:white;
+}
+
+/* HEXA  */
+h2{
+    color: #ffff20;
+}
+
+
+
+/* SELECTORS */
+/*   TO APPLY CHANGES TO ALL THE CONTENT */
+/* 1)UNIVERSAL SELECTOR */
+*{
+    color:black;
+}
+
+/* 2) ELEMENT DELECTOR */
+/* TO CHANGE THE CONTENT OF A PARTICULAR HEADING */
+h1{
+    color:aliceblue;
+}
+
+/* 3) ID SELECTOR */
+#headingfour{
+    color:red;
+}
+
+/* 4) class selector */
+/*  <p class="my class"> example </p> */
+.myclass{
+    color:rebeccapurple;
+}
+
+/* TEXT ALIGN  to align the text in left/right/center */
+h1{
+    text-align: center;
+    /* TEXT DECORATION: OVERLINE/UNDERLINE/LINE-THROUGH */
+    text-decoration: overline;
+}
+p{
+    /* start can also be used as left */
+    text-align: left;  
+}
+
+/* FONT WEIGHT  ight-dark */
+
+h1{
+    font-weight: bolder;
+}
+h2{
+    font-weight: 400;
+}
+
+/* FONT-FAMILY:arial,roboto */
+#one{
+    font-family:cursive;
+}
+
+/* FONT SIZE */
+p{
+    font-size: 20px;
+}
+
+/* /* LINE-HEIGHT   increase the space between words */
+#two{
+    line-height: 44px;          
+}
+
+/* TEXT-TRANSFORM:uppercase/lowercase/capitalize/none */
+#two{
+    text-transform:uppercase;
+}

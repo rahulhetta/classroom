@@ -1,0 +1,128 @@
+div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    
+   
+}
+
+
+/* div:hover{
+    background-color: black; 
+    color:white
+} */
+/* div:active{
+    background-color: blueviolet; (click hold krne par color change ho jayeg a)
+} */
+
+ /* div:active{
+    background-color: blueviolet; 
+    transition-property: all;
+    transition-duration: 2s; (it will take 2 sec to change color )
+    font-size: 10px;  (on clicking and holding font size will also change )
+}  */
+/* div:active{
+    transition: all 2s ease-in 1s;
+} */
+
+/* div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    transition: all 2s ease-in 1s;
+} (wat to write it in short form )
+div:hover{
+    background-color: black; 
+    color:white
+} */
+
+/* CSS TRANSFORM */ 
+/* div:hover{
+    transform: rotate(90deg); (rotate the div to 45deg when cursor is placed on it )
+} */
+/* CSS SCALE */
+/* div:hover{
+    transform: scale(2) (increase or decrease the sixe )
+} */
+/* CSS TRANSLATE  */
+/* div:hover{
+    transform: translate(50px); ( move 20 px from its positions )
+} */
+/* SKEW */
+/* div:hover{
+    transform: skew(30deg); (will change its shaope )
+} */ 
+
+/*ANIMATION */
+/* CREATING A ANIMATION  */
+/* @keyframes move{
+    from{background-color: aqua;}
+    to{background-color: brown;}
+} */
+
+/* NOW TO MAKE THE ANIMATION WORK  */
+
+/* div{
+    animation-name: rahul;
+    animation-duration: 1s;
+    animation-timing-function: ease;  (it will change the color 5 times from aqua to yellowgreen )
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+
+} */ 
+
+/* @keyframes move{
+    from{left:0px;}
+    to{right: 200px;}
+} */
+/* div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    
+} div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    
+} */
+
+ /* div{
+    animation-name: move;
+    animation-duration: 1s; */
+    /* animation-timing-function: ease;      TO MAKE THE ANIMATION MOVE FROM LEFT 0PX TO 200PX  */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}  */
+  /* ANIMATION SHORT HAND  */
+ 
+  /* animation: move 2s leniar 3s infinite normal; */
+
+  
+  /* % IN ANIMATION  */
+  /* @keyframes animate{
+    0%{ left: 0px;
+        background-color: aqua;}
+    50%{background-color: blue;}
+    100%{right: 200px;
+        background-color: brown;}
+  }  */
+  /* div{
+    animation-name:animate;
+    animation-duration: 5s;
+    animation-timing-function: ease;  
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+
+} */
+  

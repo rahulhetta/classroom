@@ -1,0 +1,94 @@
+/* PERCENTAGE  */
+/* #box{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+}
+#box2{
+    height:50px;
+    width:20%;
+    background-color: blue;
+    margin-left: 10%;
+} */
+
+/* Em - if we make 2 div and font size of parent div is 50px and if we give font size of child div as 1em  then the font size of parent div is given to child div 
+  and if we give it the value of 2em then size will be doubled of parent div*/
+  
+ /* #box{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    font-size: 15px;
+}
+#box2{
+    height:50px;
+    width:20%;
+    background-color: blue;
+    margin-left: 10%;
+    font-size: 2em;
+} */
+
+/* position  STATIC , RELATIVE */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* #box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 100px; - top se 100px niche 
+    left: 50px;   left se 50 px dur we can also use right and bottom
+} */
+
+/* POSITION:ABSOLUTE; */
+/* #box3{
+    position: absolute;    POSITIONED according to the closest ansestor
+    top: 50px;
+} */
+
+/* #box4{
+    position: fixed;
+    left: 50px;
+    top: 0px; now it is fixed ad the top can cannot move when we scroll website 
+} */
+
+/* fixed - het stick when found during scrolling  */
+/* #box3{
+    position:sticky;
+    top: 0px;
+} */
+
+/* #box1{   Z-INDEX
+    position: relative;
+    left:20px;
+    z-index: 1;
+}
+IT DECIDES WHICH WILL COME ABOVE AND WHICH WILL COME OVER 
+#box2{
+    position: relative;
+    top: 20px;
+}
+#box3{
+    position: relative;
+   
+    top: 40px;
+} */
+
+ADDING BACKGROUND IMAGE IN A DIV OR IN FULL BODY 
+
+body{
+    background-image: url("cat_png.png");
+    background-size: cover;
+}
+
+#box1{
+    background-image: url("cat_png.png");
+    background-size: cover;
+}

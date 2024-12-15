@@ -1,0 +1,23 @@
+div{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+}
+/* @media ( width : 600px){
+div{
+     background-color: brown;   change the color to red when its 600 px
+}
+
+} */
+/* @media (min-width:600px){
+    div{
+        background-color: brown;    when it crosses 600 px color change to brown 
+    }
+ }   */
+
+ /* @media (min-width:200px) and (max-width:300px){
+    div{
+        background-color: red; change the colore to red whrn px is in between 200-300px
+    }
+ } */
